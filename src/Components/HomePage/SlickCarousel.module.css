@@ -1,0 +1,167 @@
+	/* REACT SLICK ARROW CUSTOM CSS */
+   body {margin: 0; 
+    background-color: whitesmoke!important;
+   }
+
+ .headings{
+  color: white;
+  padding: 20px;
+ }
+ .headings2{
+
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+ }
+ .headingspace{
+  padding: 20px;
+ }
+ .bestsellers{
+  margin: 40px 0px;
+ 
+  /* background: url('https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg'); */
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
+ }
+ .supersavers{
+  margin: 30px 0px;
+ 
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
+  
+ }
+ .justin{
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
+  /* margin: 20px 60px; */
+  padding: 10px;
+ 
+ }
+ .bestsellersSlider{
+  width: 80%;
+ margin:  auto;
+ }
+ 
+ .justinSlider, .hotdealsSlider{
+  width:93%;
+  margin:  auto;
+  border-radius: 10px;
+ }
+ .hotdeals img{
+  border: 10px solid whitesmoke;
+  border-radius: 20px;
+ }
+ .hotdeals{
+  /* background: url('https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg'); */
+ 
+  background-color: whitesmoke;
+ 
+ }
+ 
+ .ref2{
+  display: none;
+ }
+ .video2{
+  display: none;
+ }
+ .bannerSlider2{
+  display: none;
+ }
+ .newlaunches2{
+  display: none;
+ }
+.newlaunches{
+ width: 92%;
+ margin: 0px auto;
+ 
+}
+.newlaunches img{
+  border-radius: 10px;
+}
+/* .iframe{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+} */
+.tot img{
+  width: 50%;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+.tot{
+  display: flex;
+  width: 95%;
+ margin: 0px auto;
+}
+    @media screen and (min-width: 786px) and (max-width: 1024px) {
+      .newlaunches img{
+        height: 200px;
+       }
+       
+
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 785px) {
+      .tot img{
+        width: 100%;
+      }
+      .tot{
+        flex-direction: column;
+      }
+      .newlaunches img{
+       
+        height: 220px;
+       }
+      
+      
+       .video1{
+        display: none;
+       }
+       .video2{
+        display: block;
+       }
+      
+    }
+    @media screen and (max-width: 479px) {
+      .tot img{
+        width: 100%;
+      }
+      .tot{
+        flex-direction: column;
+      }
+
+      .newlaunches img{
+       
+        height: 210px;
+       }
+       .bannerSlider1{
+        display: none;
+       }
+       .bannerSlider2{
+        display: block;
+        margin: auto;
+       }
+       .ref1{
+        display: none;
+       }
+       .ref2{
+        display: block;
+       }
+       .video1{
+        display: none;
+       }
+       .video2{
+        display: block;
+       }
+       .newlaunches{
+        display: none;
+       }
+       .newlaunches2{
+        display: block;
+        
+       }
+    }

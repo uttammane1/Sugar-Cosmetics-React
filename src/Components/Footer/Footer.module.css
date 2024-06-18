@@ -1,0 +1,91 @@
+.div1{
+  
+    background-color: black;
+}
+.div2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.cpr{
+    background-color: black;
+    color:#999999;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.imgdiv1{
+    height: 20px;
+}
+.container{
+    background-color: black;
+    height: 700px;
+    /* margin-top: 50px; */
+    width: 100%;
+}
+.div3{
+    margin-top: 30px;
+    display: flex;
+    gap: 250px;
+}
+.div3 > div > p{
+    color: white;
+}
+.div3 > div > div >p{
+    color: white;
+}
+.div3 > div > input{
+    height: 50px;
+    width: 310px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    font-size: medium;
+}
+.div3 > div > button{
+    height: 38px;
+    color: white;
+    background-color: rgb(252,38,120);
+    border-radius: 5px;
+    border: 1px solid rgb(252,38,120);
+    width: 100px;
+    font-size: large;
+    margin-top: 20px;
+}
+.div4{
+    width:80%;
+}
+.div4 > div {
+    display:flex;
+    justify-content:space-evenly;
+}
+.div4 > div > a{
+    color : white ;
+    font-size : 17px ;
+    text-decoration : none ;
+    margin-top : 15px;
+    font-size: 18px;
+}
+.innerdiv3{
+    display:flex;
+    gap:10px;
+    width:80%;
+   justify-content: center;
+}
+.gtc{
+    margin-top:5px;
+    margin-bottom:40px;
+    margin-right:5px;
+   display:flex;
+   flex-direction:column;
+}
+@media screen and (max-width: 786px) {
+    .div4{
+        flex-direction: column;
+    }
+    .ugly{
+flex-direction: column;
+    }
+}

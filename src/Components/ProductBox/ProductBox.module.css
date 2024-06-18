@@ -1,0 +1,43 @@
+.imageCss2{
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    /* border: 10px solid whitesmoke; */
+    margin: 10px;
+    padding: 10px 10px 5px 10px;
+   }
+   .imageCss2 img{
+    height: 222px;
+    width: 163px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+   .productDescription{
+ 
+    width: 163px;
+    height: 40px;
+   padding-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+   font-size: 11px;
+    overflow: hidden;
+    font-weight: 600;
+   
+   }
+   .productPrice{
+  
+    width: 163px;
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 600;
+   }
+   
+   .buttongrp{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+   }  
